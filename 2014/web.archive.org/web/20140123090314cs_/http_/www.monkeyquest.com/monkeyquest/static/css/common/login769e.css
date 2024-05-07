@@ -1,0 +1,56 @@
+form input.txt,
+form select.txt,
+form textarea.txt { display: block; border: none; width: 278px; padding: 2px; font-size: 16px; background-color: #fcf773; }
+
+.mqbox.center.green .body { background-image: url(../../../../../../../20140123090939im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/small-box-sprite.png); width: 425px; }
+.mqbox.center.green .top { background-image: url(../../../../../../../20140123090939im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/small-box-sprite.png); width: 475px; background-position: -475px 0; height: 58px; }
+.mqbox.center.green .bottom { background-image: url(../../../../../../../20140123090939im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/small-box-sprite.png); width: 475px; background-position: -475px 18px; height: 18px; }
+
+form.mqform .wrap label.left { width: 100px; text-align: left; }
+
+#dlg-login {
+	position: fixed;
+	z-index: 21;
+	top: 80px;
+	left: 0;
+	width: 100%;
+}
+
+#dlg-login .dlg-wrapper {
+	width: 467px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#dlg-login button.close {
+	background: url(../../../../../../../20140123090945im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/buttons/btn-close-x.png) no-repeat;
+	position: absolute;
+	z-index: 3;
+	right: 10px;
+	top: 12px;
+	width: 28px;
+	height: 28px;
+	border: 0;
+	cursor: pointer;
+}
+#dlg-login button.close:hover { background-position: 0 -28px; }
+/*
+     FILE ARCHIVED ON 09:03:14 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:28:09 May 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.564
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.057
+  cdx.remote: 0.052
+  esindex: 0.009
+  LoadShardBlock: 166.696 (3)
+  PetaboxLoader3.datanode: 91.536 (4)
+  PetaboxLoader3.resolve: 540.958 (2)
+  load_resource: 481.926
+*/

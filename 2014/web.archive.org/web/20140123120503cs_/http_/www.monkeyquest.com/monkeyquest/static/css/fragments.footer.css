@@ -1,0 +1,57 @@
+/* Footer
+-----------------------------------------------------------------------------*/ 
+
+#footer { width: 100%; color: #fff; background: url('../../../../../../20140123091457im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/footer.png'); position: absolute; bottom: 0; left: 0; z-index: 2; font: normal 10px arial,verdana,sans-serif; }
+#footer .inner { width: 958px; min-height: 65px; padding: 10px 0; margin: auto; text-align: center; position: relative; }
+#footer .inner .logos_holder { text-align: center; margin-bottom: 5px; }
+#footer .inner .logos_holder img { margin: 0 10px; display: inline; }
+#footer .inner .logos_holder img.nick { position: relative; top: -10px; }
+
+#footer .inner .links { list-style-type: none; margin: 0 auto 10px auto; color: yellow; }
+#footer .inner .links li { display: inline; margin: 0 10px 0 0; padding-right: 11px; border-right: 1px solid #fff; }
+#footer .inner .links li.noPipe { border-right: none; }
+#footer .inner .links li.last { margin-right: 40px; }
+#footer .inner .links .date { color: #fff; }
+
+#footer a { color: yellow; text-decoration: none; }
+#footer a:hover { color: #eff16b; text-decoration: none; }
+#footer a.orange,
+#footer a.orange:hover { color: #F78F1E; }
+
+#footer .label_game_down { position: absolute; top: 15px; left: 18px; }
+
+/* copyright */
+#footer p.copyright {
+    width: 968px;
+    position: absolute;
+    left: 0px;
+}
+
+/* follow facebook */
+ #footer #followfb {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 120px;
+    display: inline-block;
+}
+/*
+     FILE ARCHIVED ON 12:05:03 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:28:13 May 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.695
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.074
+  cdx.remote: 0.071
+  esindex: 0.008
+  LoadShardBlock: 474.222 (3)
+  PetaboxLoader3.datanode: 301.861 (5)
+  PetaboxLoader3.resolve: 555.309 (4)
+  load_resource: 412.578 (2)
+*/
