@@ -1,0 +1,55 @@
+.x-ui-ce-container {
+	display: inline-block;
+	width: 1em;
+	min-width: 15px;
+	height: 1em;
+	position: relative;
+	cursor: pointer;
+}
+
+.x-ui-ce-container span {
+	background: url(../../../../../../../../../../20140123090458im_/http_/www.monkeyquest.com/monkeyquest/static/css/nvwg-ext/UI/Widgets/Form/form-controls.html) 0 0 no-repeat;
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 16px;
+	position: absolute;
+	z-index: 1;
+}
+
+.x-ui-ce-container input {
+	position: absolute;
+	z-index: -1;
+	left: -99999px; /* For IE < 9 */
+}
+
+.x-ui-ce-container.x-ui-ce-radio span { background-position: 0 -3px; }
+.x-ui-ce-container.x-ui-ce-radio.x-ui-ce-active span { background-position: 0 -23px; }
+.x-ui-ce-container.x-ui-ce-radio.x-ui-ce-selected span { background-position: 0 -43px; }
+.x-ui-ce-container.x-ui-ce-radio.x-ui-ce-active.x-ui-ce-selected span { background-position: 0 -63px; }
+
+.x-ui-ce-container.x-ui-ce-checkbox span { background-position: -20px 0px; }
+.x-ui-ce-container.x-ui-ce-checkbox.x-ui-ce-active span { background-position: -20px -20px; }
+.x-ui-ce-container.x-ui-ce-checkbox.x-ui-ce-selected span { background-position: -20px -40px; }
+.x-ui-ce-container.x-ui-ce-checkbox.x-ui-ce-active.x-ui-ce-selected  span{ background-position: -20px -60px; }
+
+/*
+     FILE ARCHIVED ON 09:03:01 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:51:04 May 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.917
+  exclusion.robots: 0.202
+  exclusion.robots.policy: 0.18
+  cdx.remote: 0.142
+  esindex: 0.02
+  LoadShardBlock: 312.167 (3)
+  PetaboxLoader3.resolve: 253.726 (3)
+  PetaboxLoader3.datanode: 72.238 (4)
+  load_resource: 32.129
+*/
