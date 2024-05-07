@@ -1,0 +1,49 @@
+
+/* Misc
+-----------------------------------------------------------------------------*/ 
+
+.fleft { float: left; }
+.fright { float: right; }
+.cboth { clear: both; display: block; }
+.center { margin-left: auto; margin-right: auto; }
+.hidden { display: none; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#no_javascript {
+	display: block; width: 100%;
+	background: #FFAE00;font-size: 1.2em;padding: 10px 0px;text-align: center;
+	position: absolute; top: 20px; left: 0; z-index: 1;	
+}
+/*
+     FILE ARCHIVED ON 09:04:35 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:51:08 May 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.685
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.076
+  cdx.remote: 0.064
+  esindex: 0.01
+  LoadShardBlock: 247.479 (3)
+  PetaboxLoader3.datanode: 106.846 (5)
+  PetaboxLoader3.resolve: 274.146 (4)
+  load_resource: 244.251 (2)
+*/

@@ -1,0 +1,270 @@
+.header_wrapper { position: relative; z-index: 5; font: normal 10px arial,verdana,sans-serif; color: #000; }
+.header_wrapper * { margin: 0; padding: 0; }
+.header_wrapper img { display: block; border: none; }
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+#main_header { width: 1001px; min-height: 146px; margin: auto; padding-top: 46px; position: relative; z-index: 2; /*overflow: hidden;*/ margin-bottom: 90px; background: url('../../../../../../20140213011644im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/layout/nav/backgrounds/standard.png') no-repeat 0 0; }
+
+
+#mqlogo { width: 231px; height: 168px; position: absolute; top: 10px; left: 10px; z-index: 3; margin: 0; }
+#mqlogo a { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('../../../../../../20140123090453im_/http_/www.monkeyquest.com/monkeyquest/static/images/pix.gif'); }
+
+.home .graphic { display: none; }
+.graphic.deco_header { position:absolute; bottom: 0; right: 100px; z-index: 1; }
+.graphic.deco_monkey { position: absolute; bottom: -9px; right: 120px; z-index: 6; }
+
+#nav_wrapper { position: relative; z-index: 5; /*margin-bottom: 60px;*/ }
+#main_header #nav_wrapper { position: absolute; bottom: -49px; left: 12px; }
+
+#main_nav {
+	display: block;
+	width: 947px; min-height: 49px;
+	padding: 0 12px;
+	background: url('../../../../../../20140213005755im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/menu.png') no-repeat;
+	list-style: none;
+	font-size: 16px;
+	position: relative; z-index: 3;
+}
+.shockwave #main_nav { background: url('../../../../../../20140213010926im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/layout/nav/backgrounds/small.png') no-repeat; width: 924px;}
+
+#main_nav .holder_b_play { left: 373px; top: -40px; z-index: 1; }
+#main_nav .holder_b_play .forfree { position: absolute; bottom: 0; left: 65px; z-index: 1; }
+#main_nav .section_nav { list-style-type: none; position: relative; z-index: 2; }
+
+#main_nav .section_nav > li { display: block; float: left; position: relative; padding-bottom: 4px; }
+#main_nav .section_nav > li > a { display: block; text-decoration: none; height: 10px; padding: 16px 7px 13px 7px; }
+
+#main_nav .section_nav > li:hover > a,
+#main_nav .section_nav > li.active > a { background-image: url('../../../../../../20140213010717im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/layout/nav/backgrounds/menu-hover.png'); }
+#main_nav .section_nav > li a .icon { display: block; }
+#main_nav .section_nav > li.drop a .icon { background: url('../../../../../../20140213004717im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/icons/ico_dropdown.png') no-repeat 100% 50%; padding-right: 20px; }
+#main_nav .section_nav > li.home a .icon { background: url('../../../../../../20140213012147im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/icons/ico_home.png') no-repeat 0 50%; padding-left: 30px; }
+#main_nav .section_nav > li.ad { background: url('../../../../../../20140213010953im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/icons/nav_ad.png') no-repeat 100% 31px; }
+#main_nav .section_nav > li.ad a { padding-right: 14px; }
+#embed #main_nav .section_nav > li.ad a { padding-right: 19px; }
+#embed #main_nav li.embed_logo { width: 100px; height: 49px; }
+#embed #main_nav li.embed_logo img { position: absolute; top: -27px; left: -12px; }
+#embed #main_nav li.embed_logo a:hover,
+#embed #main_nav li.embed_logo a.active { background: none; }
+#embed #main_nav .section_nav > li > a { padding-left: 6px; padding-right: 6px; }
+#embed #main_nav .section_nav > li.home a .icon { padding-left: 25px; }
+
+#main_nav .section_nav .dropdown { width: 227px; position: absolute; top: 42px; font-size: 13px; font-weight: bold; visibility: hidden; z-index: 5; }
+#main_nav .section_nav.left .dropdown { left: 0; }
+#main_nav .section_nav.right .dropdown { right: 0; }
+#main_nav .section_nav .dropdown .body { background-image: url('../../../../../../20140213004618im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/dropdown_body.png'); padding: 0 7px; list-style: none; }
+#main_nav .section_nav .dropdown .top { height: 7px; background: url('../../../../../../20140213012158im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/dropdown_top.png'); }
+#main_nav .section_nav .dropdown .bottom { height: 7px; background: url('../../../../../../20140213005155im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/dropdown_bottom.png'); }
+#main_nav .section_nav .dropdown li { overflow: hidden; zoom:1; }
+#main_nav .section_nav .dropdown li.odd { background-color: #ffcf7b; }
+#main_nav .section_nav .dropdown li.thumb { position: relative; min-height: 40px; }
+
+#main_nav .section_nav .dropdown li span { position: relative; zoom: 1; }
+
+#main_nav .section_nav .dropdown li a { display: block; padding: 5px; position: relative; color: #000; text-decoration: none;  zoom: 1; background-image: url('../../../../../../20140123090453im_/http_/www.monkeyquest.com/monkeyquest/static/images/pix.gif'); }
+#main_nav .section_nav .dropdown li a:hover { background-color: #e7a42e; }
+
+#main_nav .section_nav .dropdown li.thumb a { min-height: 40px; padding-left: 70px; }
+#main_nav .section_nav .dropdown li.thumb img { display: block; position: absolute; top: 5px; left: 5px; width: 60px; height: 40px; }
+#main_nav .no-dropdown { background: none !important; }
+
+#main_header .vines { display: block; width: 256px; height: 233px; background: url('../../../../../../20140213011839im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/graphic/vines_home.png'); position: absolute; top: 95px; left: 46px; z-index: 1; }
+#main_header .graphic_monkey { display: block; position: absolute; top: 172px; left: 30px; z-index: 5; }
+
+.holder_b_play { width: 220px; height: 125px; position: absolute; top: 24px; left: 18px; z-index: 5; }
+.holder_b_play .playbutton { position: absolute; top: 0; left: 0; z-index: 1; width: 100%; height: 100%; }
+.holder_b_play .playbutton .playbutton_anim { position: absolute; top: 0; left: 0; z-index: 2; background: url('../../../../../../20140123090808im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/buttons/play/glow-overlay.png') no-repeat 0 0; width: 100%; height: 100%; cursor: pointer; }
+.holder_b_play .playbutton.disabled .playbutton_anim { display: none !important; }
+
+#userlinks { font-size: 12px; color: #2a5124; text-align: center; font-weight: bold; position: relative; z-index: 10; }
+#userlinks a { color: #2a5124; text-decoration: none; }
+
+/* Main Nav Menu */
+#main_nav.new {
+	background: url(../../../../../../20140213010545im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/menu-embed.png);
+}
+
+
+/* Utilbox
+-----------------------------------------------------------------------------*/
+.utilbox { position: absolute; top: 40px; right: 43px; height: 41px; background: url('../../../../../../20140213012138im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/utilbox_body.png') repeat-x; }
+.utilbox .edge { display: block; position: absolute; top: 0; height: 41px }
+.utilbox .edge.left { width: 7px; left: -7px; background: url('../../../../../../20140123090708im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/utilbox_left.png'); }
+.utilbox .edge.right { width: 13px; right: -13px; background: url('../../../../../../20140123090708im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/utilbox_right.png'); }
+
+.utilbox.sharing { height: 24px; padding-top: 8px; padding-bottom: 9px; font-size: 14px; line-height: 24px; z-index: 2; }
+.utilbox.sharing .label,
+.utilbox.sharing a { display: block; float: left; margin: 0 5px }
+
+.utilbox.ooktime { position: absolute; top: 40px; left: 43px; height: 32px; padding-top: 0; padding-bottom: 9px; font-size: 14px; line-height: 24px; z-index: 2; min-width: 160px; max-width: 180px; }
+.utilbox.ooktime .wrapper { color: #000000; background-color: #ffffff; padding: 8px 5px 0 5px; text-align: center; }
+.utilbox.fblike { z-index: 2; }
+.utilbox.fblike .wrapper { color: #000000; background-color: #ffffff; padding: 8px 5px 5px 5px; text-align: center; }
+
+.btn { display: block; text-indent: -999em; overflow: hidden; outline: none; background: transparent no-repeat 0 0; }
+.mqlogo { width: 231px; height: 168px; background-image: url('../../../../../../20140213010229im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/icons/logo.png'); }
+.btn.b_facebook,
+.btn.b_twitter { width: 24px; height: 24px; background: url('../../../../../../20140127005709im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/buttons/b_sharing.png') 0 0; }
+.btn.b_twitter { background-position: 100% 0; }
+.b_learnmore { background-image: url('../../../../../../20140213011923im_/http_/www.monkeyquest.com/monkeyquest/static/images/en/buttons/b_learnmore.png'); width: 117px; height: 41px; }
+
+
+/* Compact header
+-----------------------------------------------------------------------------*/
+#main_header.compact { background: none; margin-bottom: 10px; min-height: 80px; padding-top: 0; }
+#main_header.compact #nav_wrapper { bottom: 0; }
+#main_header.compact #nav_wrapper .shrubs { background: url('../../../../../../20140213010029im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/layout/nav/shrubs/compact.png'); }
+#main_header.compact .section_nav { left: 100px; }
+#main_header.compact li { margin-left: 20px; }
+#main_header.compact #mqlogo { width: 124px; height: 91px; background: url('../../../../../../20140213005159im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/logo/compact.png') no-repeat; z-index: 6; left: 0; top: 5px; }
+
+
+
+/* Mobile callout
+-----------------------------------------------------------------------------*/
+#main_header .mobile-callout {
+	background: url(../../../../../../20140213011843im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/global/layout/mobile-callout.png) no-repeat;
+	width: 221px;
+	height: 135px;
+	display: block;
+	position: absolute;
+	top: -160px;
+	right: 0;
+}
+#main_header .mobile-callout span { display: none; }
+
+
+
+/* Parents callout
+-----------------------------------------------------------------------------*/
+#main_header .parents-callout {
+	background: url(../../../../../../20140213012201im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/global/layout/parents-callout.png) no-repeat;
+	width: 221px;
+	height: 140px;
+	display: block;
+	position: absolute;
+	top: -160px;
+	right: 0;
+}
+
+#main_header .parents-callout:hover {
+	background-position: 0 -140px;
+}
+#main_header .parents-callout span { display: none; }
+
+
+
+/* Game mode
+-----------------------------------------------------------------------------*/
+#gamemode-container {
+	background: url(../../../../../../20140213011037im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/global/user/login/backgrounds/parchment/small.png) no-repeat;
+	width: 310px;
+	height: 151px;
+	position: relative;
+}
+#gamemode-container.large {
+	background: url(../../../../../../20140123090732im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/global/user/login/backgrounds/parchment/large.png) no-repeat;
+	height: 200px;
+}
+
+#gamemode-container h4,
+#gamemode-container label {
+	display: block;
+	background: url(../../../../../../20140213005613im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/global/user/login/text.png) no-repeat;
+}
+#gamemode-container h4,
+#gamemode-container .option {
+	position: relative;
+}
+#gamemode-container h4 span,
+#gamemode-container label span { display: none; }
+
+#gamemode-container h4 {
+	width: 260px;
+	height: 20px;
+	background-position: 0 -60px;
+	left: 22px;
+	top: 20px;
+}
+
+#gamemode-container .option {
+	height: 25px;
+	margin: 5px 0 5px 67px;
+	clear: both;
+}
+#gamemode-container .option.first { margin-top: 28px; }
+
+#gamemode-container label {
+	width: 126px;
+	height: 25px;
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}
+#gamemode-container #lbl-gamemode-fullscreen.selected { background-position: 0 -25px; }
+#gamemode-container #lbl-gamemode-normal { background-position: -170px 0; }
+#gamemode-container #lbl-gamemode-normal.selected { background-position: -170px -25px; }
+#gamemode-container #lbl-gamemode-save {
+	background-position: 0 -117px;
+	width: 138px;
+	height: 11px;
+	margin-top: 3px;
+}
+
+#gamemode-container .x-ui-ce-container { float: left; }
+#gamemode-container .x-ui-ce-radio span { top: 5px; }
+
+#main_nav #gamemode-container {
+	background: url(../../../../../../20140213005431im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/global/user/login/backgrounds/menu-dropdown.png) no-repeat;
+	width: 222px;
+	height: 140px;
+	top: 82px;
+	display: none;
+}
+
+#main_nav .holder_b_play.dropdown #gamemode-container { display: block; }
+#main_nav .holder_b_play.dropdown a img { display: none; }
+
+#main_nav #gamemode-container .shim-top {
+	background: url("../../../../../../20140213005755im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/menu.png") no-repeat -10px -45px;
+	height: 35px;
+	width: 100%;
+}
+
+#main_nav #gamemode-container .shim-bottom {
+	position: absolute;
+	height: 25px;
+	width: 100%;
+	top: 10px;
+	left: 0;
+	z-index: 2;
+}
+
+#main_nav #gamemode-container h4 { display: none; }
+#main_nav #gamemode-container .option { z-index: 3; margin-left: 30px; }
+#main_nav #gamemode-container .option.first { margin-top: 0; }
+#main_nav #gamemode-container #lbl-gamemode-save { background-position: 0 -99px; }
+
+/*
+     FILE ARCHIVED ON 09:05:00 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:51:04 May 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.659
+  exclusion.robots: 0.102
+  exclusion.robots.policy: 0.089
+  cdx.remote: 0.078
+  esindex: 0.009
+  LoadShardBlock: 62.888 (3)
+  PetaboxLoader3.datanode: 69.1 (4)
+  load_resource: 158.953
+  PetaboxLoader3.resolve: 127.027
+*/
