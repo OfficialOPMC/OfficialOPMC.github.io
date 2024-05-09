@@ -1,0 +1,58 @@
+/* Login tab */
+	#tab-login {
+		background: url(../../../../../../../../20140123090931im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/pages/lander/control/common/login-backgorund.html) no-repeat 0 0;
+		width: 240px;
+		height: 40px;
+		position: relative;
+		z-index: 2;
+	}
+
+	#tab-login button {
+		background: url(../../../../../../../../20140123090935im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/pages/lander/control/common/btn-login.html) no-repeat 0 0;
+		width: 90px;
+		height: 31px;
+		border: 0;
+		position: absolute;
+		top: 4px;
+		right: 5px;
+		cursor: pointer;
+	}
+	#tab-login button:hover { background-position: 0 -31px; }
+
+
+/* Play button */
+	#btn-play .animation {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: crop;
+		visibilty: hidden;
+	}
+
+/* necessary for overlay to display  */
+	#monkeybox_overlay[style]  {
+	    opacity: inherit !important;
+	}
+
+/*
+     FILE ARCHIVED ON 09:03:12 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:28:09 May 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.689
+  exclusion.robots: 0.109
+  exclusion.robots.policy: 0.1
+  cdx.remote: 0.057
+  esindex: 0.01
+  LoadShardBlock: 61.109 (3)
+  PetaboxLoader3.datanode: 136.475 (4)
+  load_resource: 126.978
+  PetaboxLoader3.resolve: 45.728
+*/

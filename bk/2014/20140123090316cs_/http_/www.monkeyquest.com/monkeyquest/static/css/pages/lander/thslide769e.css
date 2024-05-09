@@ -1,0 +1,131 @@
+/*  THSLIDE */
+.thslide
+{ 
+	position: absolute;
+    width:934px;
+    height:360px;
+}
+
+.thslide_nav_previous,
+.thslide_nav_next {
+	position: absolute;
+    z-index: 10;
+    left: 0px;
+}
+
+.thslide_nav_previous a {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    -moz-border-bottom-left-radius: 10px;
+}
+
+.thslide_nav_next a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+}
+
+
+.thslide_nav_previous a,
+.thslide_nav_next a
+{
+    display:block;
+    width:40px;
+    height:360px;     
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fbc23f;
+}
+
+.thslide_nav_previous
+{
+    background:url(../../../../../../../../20140123090949im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/pages/lander/embed/default/arrow-left.png) no-repeat 0 0;
+}
+
+.thslide_nav_next
+{
+    background:url(../../../../../../../../20140123090952im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/pages/lander/embed/default/arrow-right.png) no-repeat 0 0;    
+    background-position:100% 0;
+}
+
+.thslide_nav_previous a:hover,
+.thslide_nav_next a:hover
+{
+    background-color: white;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.thslide_list
+{
+    float:left;
+    overflow:hidden;   
+    position:relative; 
+    width:934px;
+    height:360px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fbc23f;
+    border-radius:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+}
+
+.thslide_list ul
+{
+    float:left;
+    width:9000px;
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.thslide_list li
+{
+    float:left;
+    margin-right:0px;
+}
+
+.thslide_list li a
+{
+    display:block;
+    position:relative;
+    width:934px;
+    height:360px;    
+    text-decoration:none;
+}
+
+.thslide_list li a span
+{
+    position:absolute;
+    display:block;
+    width:934px;
+    height:360px;    
+}
+/*
+     FILE ARCHIVED ON 09:03:16 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:28:10 May 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.6
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.058
+  cdx.remote: 0.051
+  esindex: 0.008
+  LoadShardBlock: 201.145 (3)
+  PetaboxLoader3.datanode: 54.242 (4)
+  PetaboxLoader3.resolve: 280.883 (3)
+  load_resource: 140.736
+*/

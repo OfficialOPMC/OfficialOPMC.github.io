@@ -1,0 +1,112 @@
+#monkeybox_overlay {
+	display: none;
+	width: 100%; height: 100%;
+	background: url('../../../../../../../20140123090804im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/overlay_black.png');
+	position: fixed; top: 0; left: 0; z-index: 20;
+}
+
+#monkeybox_window { width: 100%; /*padding-top: 200px;*/ position: absolute; top: 0; left: 0; z-index: 31; display: none; }
+#monkeybox_window #monkeybox_content {
+	width: 504px; /*height: 299px;*/
+	padding: 24px 38px 28px 34px;
+	margin: auto;
+	background-image: url('../../../../../../../20140213011205im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/lightbox_content_body.png');
+	font-size: 1.3em; line-height: 1.1em;
+	position: relative;
+}
+#monkeybox_window #monkeybox_content .edge { width: 100%; position: absolute; left: 0; }
+#monkeybox_window #monkeybox_content .edge.top { height: 22px; top: -22px; background: url('../../../../../../../20140213010425im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/lightbox_content_top.png'); }
+#monkeybox_window #monkeybox_content .edge.bottom { height: 37px; bottom: -37px; background: url('../../../../../../../20140213005839im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/lightbox_content_bottom.png'); }
+
+/*#monkeybox_window #monkeybox_content.slideshow { width: 531px; height: 299px; background: transparent url('/web/20140123090508im_/http://www.monkeyquest.com/monkeyquest/static/images/all/bg/lightbox_content.png'); }*/
+#monkeybox_window #monkeybox_content.slideshow { width: 561px; height: 400px; padding: 27px 48px 25px 46px; background: transparent url('../../../../../../../20140213010943im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/modalbox_slideshow.png'); }
+#monkeybox_window #monkeybox_content.slideshow .edge,
+#monkeybox_window #monkeybox_content.game_closed .edge { display: none; }
+#monkeybox_window #monkeybox_content.slideshow #monkeybox_inner { margin-top: 35px; }
+
+#monkeybox_window #monkeybox_content p { margin-top: 1.1em; }
+
+#monkeybox_window #monkeybox_content.container-only { height: auto; background: none; }
+#monkeybox_window #monkeybox_content.container-only .edge { display: none !important; }
+
+#monkeybox_window #monkeybox_content.game_closed { display: block; width: 245px; height: 214px; position: relative;	background: transparent; }
+#monkeybox_window #monkeybox_content.game_closed .game_closed .txt { display: block; padding: 0 15px; font-size: 14px; color: #666; text-align: center; position: absolute; bottom: 20px; left: 0; }
+
+.mq_controls {
+	display: block;
+	background: url('../../../../../../../20140213005713im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/buttons/monkeybox_controls.png') no-repeat;
+	text-indent: -999em; overflow: hidden;
+	outline: none; position: relative; z-index: 2;
+}
+.mq_controls.arrow.prev { width: 30px; height: 35px; background-position: 0 0; }
+.mq_controls.arrow.next { width: 30px; height: 35px; background-position: -30px 0; }
+.mq_controls.close_monkeybox {
+    background: url(../../../../../../../20140123090945im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/buttons/btn-close-x.png) no-repeat;
+    width: 28px;
+    height: 28px;
+}
+.mq_controls.close_monkeybox:hover { background-position: 0px -28px; }
+
+#monkeybox_window #monkeybox_content .mq_controls.arrow { position: absolute; top: 130px; }
+#monkeybox_window #monkeybox_content .mq_controls.arrow.prev { left: -75px; }
+#monkeybox_window #monkeybox_content .mq_controls.arrow.next { right: -75px; }
+#monkeybox_window #monkeybox_content .mq_controls.close_monkeybox { position: absolute; top: 8px; right: 15px; }
+
+.monkeySlideshowTemplate { display: none; }
+#monkeySlideshow { width: 100%; height: 100%; position: relative; z-index: 1; }
+#monkeySlideshow #img_holder { width: 100%; height: 320px; overflow: hidden; }
+#monkeySlideshow #img_holder img { margin: auto; }
+#monkeySlideshow .gallery_title { font-size: 18px; line-height: 1.1em; font-weight: bold; float: left; margin-right: 15px; }
+#monkeySlideshow .gallery_count { line-height: 20px; }
+
+#monkeySlideshow object#audioPlayer,
+#monkeySlideshow embed#audioPlayer { margin: 100px 0 50px 0; }
+
+#errorpage { margin-bottom: 1.1em; text-align: center; padding-top: 90px; background: url('../../../../../../../20140123090801im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/graphic/monkey_sad.png') no-repeat 50% 0; font-size: 16px; color: #000000; }
+#errorpage .title { font-size: 28px; margin-bottom: 5px; }
+#errorpage .subtitle { font-size: 15px; margin-bottom: 15px; }
+
+#monkeybox_window #monkeybox_content.videoFeature { width: 640px; height: 480px; padding: 40px 37px 26px 34px; background: transparent url('../../../../../../../20140213011138im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/bg/modalbox.png') no-repeat; }
+#monkeybox_window #monkeybox_content.videoFeature .edge { display: none; }
+
+#monkeybox_window #monkeybox_content.videoFeature #monkeybox_inner { margin-top: 7px; }
+
+.error_monkey { padding-top: 90px; background: url('../../../../../../../20140123090801im_/http_/www.monkeyquest.com/monkeyquest/static/images/all/graphic/monkey_sad.png') no-repeat 50% 0; }
+
+
+/* Facebook bumper
+-----------------------------------------------------------------------------*/
+
+#fbbumper { min-height: 200px; width: 100%; position: relative; }
+#fbbumper .graphic_monkey { position: absolute; top: -28px; right: -38px; }
+#fbbumper .content { width: 300px; }
+#fbbumper .controls_holder { padding-top: 15px; }
+#fbbumper .controls_holder * { float: left; margin: 0 15px; }
+
+/* take survey
+-----------------------------------------------------------------------------*/
+.mq_survey_holder { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 100;}
+.mq_survey_holder .mq_survey_inner { width: 600px; height: 400px; margin: 200px auto 0; background: url('../../../../../../../20140213005730im_/http_/www.monkeyquest.com/monkeyquest/static/css/images/all/bg/survey_bg.html') no-repeat; position: relative;}
+.mq_survey_holder .mq_survey_inner .btn_close { display: block; width: 31px; height: 31px; position: absolute; top: 70px; right: 42px; text-indent: -9999px; overflow: hidden;}
+.mq_survey_holder .mq_survey_inner .take_survey { display: block; width: 214px; height: 121px; position: absolute; bottom: 73px; right: 83px; text-indent: -9999px; overflow: hidden;}
+.mq_survey_holder .mq_survey_inner p { display: block; width: 270px; height: 80px; position: absolute; top: 115px; right: 60px; font-size: 14px; font-weight: bold; color: #ffffff; text-align: center;}
+/*
+     FILE ARCHIVED ON 09:05:08 Jan 23, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:51:04 May 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.634
+  exclusion.robots: 0.069
+  exclusion.robots.policy: 0.06
+  cdx.remote: 0.057
+  esindex: 0.01
+  LoadShardBlock: 215.853 (3)
+  PetaboxLoader3.datanode: 54.186 (4)
+  PetaboxLoader3.resolve: 298.834 (2)
+  load_resource: 173.615
+*/
